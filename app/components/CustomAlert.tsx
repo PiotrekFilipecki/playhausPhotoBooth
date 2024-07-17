@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 // app/components/CustomAlert.tsx
 import { useState, useEffect } from 'react';
 import styles from './CustomAlert.module.css';
