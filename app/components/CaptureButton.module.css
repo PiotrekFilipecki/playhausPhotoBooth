@@ -1,0 +1,35 @@
+/* app/components/CaptureButton.module.css */
+.captureButton {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 4.2rem;
+  text-transform: uppercase;
+    font-family: var(--font-inter);
+}
+
+/* app/components/CaptureButton.module.css */
+.captureButton {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 4.2rem;
+  font-family: var(--font-inter);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.hidden {
+  opacity: 0;
+  transform: scale(0.8);
+}
